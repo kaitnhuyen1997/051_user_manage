@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "fullName":"Trần Ngọc Huyền",
+        "tel": "0962739775",
+        "permission":1
+    },
+    {
+        "id":2,
+        "fullName":"Skar Dương",
+        "tel": "0909191997",
+        "permission":2
+    },
+    {
+        "id":3,
+        "fullName":"Trương Thuý Vượng",
+        "tel": "0834320034",
+        "permission":3
+    },
+    {
+        "id":4,
+        "fullName":"Trần Văn Út",
+        "tel": "0962739778",
+        "permission":3
+    },
+    {
+        "id":5,
+        "fullName":"Nguyễn Văn A",
+        "tel": "0919090909",
+        "permission":4
+    }
+]

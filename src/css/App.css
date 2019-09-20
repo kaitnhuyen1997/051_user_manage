@@ -1,0 +1,75 @@
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #dc3545db;
+}
+
+::selection {
+  color: #fff;
+  background: #dc3545db;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.formSearch .btn-group.btn-group-search {
+  width:100%; 
+}
+.formSearch .btn-group.btn-group-addclose button {
+  width:auto; 
+}
+.formSearch .btn-group input {
+  border-radius: .25rem 0 0 .25rem;
+  transition : 0.4s;
+}
+.form-group input {
+  transition : 0.4s;
+}
+.formSearch .btn-group input:hover,
+.formSearch .btn-group input:focus,
+.formSearch .btn-group input:active,
+.form-group input:hover,
+.form-group input:focus,
+.form-group input:active  {
+  background: rgba(0,0,0,0.06);
+}
+.formSearch .btn-group button {
+  width:98px; 
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255,255,255,.3);
+  background-color: #222
+}
+
+footer p {
+font-size: 12px;
+margin: 0
+}
+
+footer ul {
+margin-bottom: 0
+}
+
+footer ul li a {
+font-size: 12px;
+color: rgba(255,255,255,.3)
+}
+
+footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:hover {
+text-decoration: none
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 28px;
+  }
+  .formSearch .btn-group {
+      width:100%; 
+  }
+  table.table.table-striped.table-hover {
+      overflow-x: scroll;
+      display: block;
+  }
+}
